@@ -17,7 +17,7 @@ class Patient(models.Model):
     sex = models.CharField(null=True, blank=True, max_length=10, choices=SEX, verbose_name='Specify your sex')
     age = models.IntegerField()
     email = models.EmailField()
-    phone = models.IntegerField()
+    phone = models.CharField(max_length=10)
     created_date = models.DateTimeField(default=timezone.now)
     password = models.CharField(max_length=8)
 
