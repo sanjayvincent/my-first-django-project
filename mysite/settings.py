@@ -86,7 +86,7 @@ DATABASES = {
         'NAME': 'carcinoma',
         'USER': 'root',
         'PASSWORD': 'root',
-        'HOST': '/usr/local/mysql/bin/mysql',
+        'HOST': 'localhost',
         'PORT': '',
     }
 }
